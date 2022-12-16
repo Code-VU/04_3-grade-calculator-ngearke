@@ -1,7 +1,4 @@
-import io
 from random import randint
-import random
-from unittest.mock import Mock
 import gradeCalculator
 
 def test_gradeCalculator_prints_Bad_score_with_nonNumeric(capfd, monkeypatch):
